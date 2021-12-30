@@ -1,0 +1,88 @@
+.intro{
+    display: flex;
+}
+.leftIntro{
+    flex: 0.4;
+    background-color: white;
+}
+.rightIntro{
+    background-color: white;
+    flex: 0.6;
+}
+.intro img{
+    height: 400px;
+    width: 620px;
+    border-radius: 60%;
+}
+.leftIntro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rightIntro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Intro >*{
+    margin-bottom: 20px;
+
+}
+.rightIntro h2,
+.rightIntro span{
+    color: crimson;
+}
+.Intro button{
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    /* background-color: rgb(252, 82, 82); */
+    background-color: crimson;
+}
+.Intro button:hover{
+    background-color: red;
+}
+.Intro span{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.ityped-cursor {
+    /* font-size: 2.2rem; */
+    opacity: 1;
+    -webkit-animation: blink 0.8s infinite;
+    -moz-animation: blink 0.8s infinite;
+    animation: blink 0.8s infinite;
+    animation-direction: alternate;
+}
+@keyframes blink {
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .intro{
+        display: flex;
+        flex-direction: column;
+    }
+    .leftIntro{
+
+        background-color: red;
+    }
+    .leftIntro img{
+        height: 300px;
+    }
+
+    .Intro{
+        text-align: center;
+    }
+
+
+}

@@ -1,0 +1,35 @@
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+/* margin-bottom: 5%; */
+}
+.footerLeft{
+    color: black;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.fb, .insta, .tw, .dis, .wh, .tele, .google{
+    margin: 10px;
+}
+.fb:hover,
+.insta:hover,
+.tw:hover,
+.dis:hover,
+.wh:hover,
+.tele:hover,
+.google:hover{
+    color: white;
+    cursor: pointer;
+}
+.follow{
+    text-align: center;
+}
+.copyright{
+    border-bottom: 1px solid black;
+    text-align: center;
+}

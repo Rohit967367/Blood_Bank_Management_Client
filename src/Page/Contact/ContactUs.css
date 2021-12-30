@@ -1,0 +1,106 @@
+.contactUs{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: red;
+    /* overflow: auto; */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    /* width: 80%; */
+}
+.contactUs::-webkit-scrollbar {
+    display: none;
+  }
+.heading{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    /* background-color: #fff; */
+}
+.heading h1, h3{
+    color: white;
+}
+.heading h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+.contactUsColumn{
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+    padding: 20px;
+}
+.contactUsColumn img{
+    width: 90%;
+    height: 350%;
+    border-radius: 10%;
+    text-align: center;
+}
+.contactUsForm{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    /* text-align: center; */
+}
+
+.contactUsForm input{
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+}
+.contactUsForm textarea{
+    margin-bottom: 8px;
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    height: 70px;
+}
+.contactUsForm input:hover,
+.contactUsForm input:focus,
+.contactUsForm textarea:hover,
+.contactUsForm textarea:focus{
+background-color: rgb(239, 233, 252);
+}
+.galat p{
+    color: red;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.galat input,
+.galat input:focus,
+.galat textarea,
+.galat textarea:focus{
+  background-color: rgb(252, 223, 223);
+}
+.contactUsForm button{
+    background-color: rgb(44, 44, 44);
+    color: white;
+    padding: 5px 16px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.contactUsForm button:hover{
+    background-color: black;
+}
+.contactUsForm button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+@media screen and (max-width: 600px) {
+    .contactUsColumn, .contactUsForm button{
+        width: 100%;
+        margin-top: 0;
+    }
+    .contactUsColumn img{
+        width: 100%;
+    }
+}

@@ -1,0 +1,63 @@
+.registerFormContainer{
+    background-color: red;
+    height: 100vh;
+    
+}
+.registerFormContainer::-webkit-scrollbar {
+    display: none;
+  }
+.registerForm{
+    background-color: #fff;
+    margin: 4% auto;
+    width: 30%;
+    padding: 20px;
+    border-radius: 8px;
+}
+.invalidValue p{
+    color: red;
+    font-size: 12px;
+}
+.invalidValue input,
+.invalidValue input:focus{
+    background-color: rgb(253, 213, 213);
+}
+
+.registerInput label{
+    margin-bottom: 10px;
+    font-size: 18px;
+    /* font-weight: bold; */
+}
+.acc{
+    font-weight: normal;
+    font-size: 15px;
+}
+.registerInput input{
+    width: 100%;
+    margin: 5px 0 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    /* border: none; */
+    /* background-color: white; */
+    /* border-bottom: 1px solid #000; */
+}
+/* .registerInput label, input{
+
+} */
+.registerForm input:hover,
+.registerInput input:focus{
+    /* border-bottom: 1px solid #000; */
+    background-color: rgb(219, 210, 250);
+    /* border: none;
+    outline: none; */
+}
+.registerInput button{
+    padding: 5px 15px;
+    font-size: 12px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.registerInput button:disabled{
+    background-color: gray;
+    cursor: not-allowed;
+}

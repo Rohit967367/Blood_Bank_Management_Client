@@ -1,0 +1,37 @@
+.request{
+    height: 100vh;
+    /* background-color: red; */
+}
+.requestHeading{
+    margin-top: 10px;
+    text-align: center;
+    /* background-color: red; */
+    /* color: white; */
+    color:crimson;
+}
+.reqButton {
+    /* background-color: red; */
+    text-align: right;
+}
+.reqButton button{
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 8px 15px;
+    font-size: 20px;
+    font-weight: 200;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    border: 1px solid black
+}
+.reqButton button:hover{
+background-color: crimson;
+color: white;
+}
+.requestSection{
+    height: calc(100vh - 50px);
+    background-color: white;
+    position: relative;
+    top: 50px;
+}

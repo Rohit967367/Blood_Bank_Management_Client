@@ -1,0 +1,14 @@
+.contact{
+    height: 100vh;
+}
+
+.contactSection{
+    background-color: crimson;
+    height: calc(100vh - 50px);
+    position: relative;
+    top: 50px;
+}
+.contactSection >*{
+    height: calc(100vh - 50px);
+
+}

@@ -1,0 +1,75 @@
+.LogInFormContainer{
+    background-color: red;
+    height: 100vh;
+}
+.LogInFormContainer h1{
+    color: black;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.LoginForm{
+    margin: 10% auto;
+    width: 30%;
+    background-color: white;
+    /* height: 300px; */
+    padding: 10px;
+    border-radius: 8px;
+}
+.loginInput{
+    margin-bottom: 2rem;
+    text-align: left;
+    font-size: 20px;
+}
+.loginInput label{
+    /* font-weight: bold; */
+    font-size: 18px;
+    margin-right: 10px;
+}
+.loginInput input{
+    width: 100%;
+    /* border: none; */
+    padding: 10px;
+    /* border-bottom: 1px solid black; */
+    border: 1px solid #ccc;
+}
+.loginInput input:hover,
+.loginInput input:focus{
+    background-color: rgb(218, 218, 255);
+    /* background-color: rgb(235, 233, 233); */
+    border: none;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.loginButton button{
+    padding: 5px 20px;
+    background-color: black;
+    color: white;
+    font-size: 13;
+    cursor: pointer;
+    right: 0;
+    border: none;
+    border-radius: 5px;
+}
+.loginButton button:hover{
+    border: none;
+    border-radius: 5px;
+}
+.loginButton{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.LoginAcc{
+    margin: 15px 0 10px 0;
+}
+
+.chuk p{
+    color: red;
+    font-size: 12px;
+}
+.chuk input,
+.chuk input:focus{
+    background-color: rgb(250, 217, 217);
+}

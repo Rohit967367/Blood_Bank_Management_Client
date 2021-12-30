@@ -1,0 +1,21 @@
+.home{
+    /* background-color: crimson; */
+    height: 100vh;
+}
+.section{
+    height: calc(100vh - 50px);
+    width: 100%;
+    /* background-color: violet; */
+    position: relative;
+    top: 50px;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+.section::-webkit-scrollbar{
+    display: none;
+}
+.section > *{
+    width: 100%;
+    height: calc(100vh - 50px);
+    scroll-snap-align: start;
+}

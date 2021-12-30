@@ -1,0 +1,5 @@
+.homepage{
+    flex: 5;
+    background-color: lightgreen;
+    height: calc(100vh - 50px);
+}

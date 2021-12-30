@@ -1,0 +1,9 @@
+.donar{
+    height: 100vh;
+}
+.donarContainer{
+    background-color: red;
+    height: calc(100vh - 50px);
+    position: relative;
+    top: 50px;
+}

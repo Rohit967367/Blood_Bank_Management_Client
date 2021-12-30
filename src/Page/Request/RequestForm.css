@@ -1,0 +1,207 @@
+.model{
+  background-color: red;
+  width: 100vw;
+  height: 100vh;
+}
+.FormRequest{
+  width: 60%;
+  margin: 5% auto 15% auto;
+  background-color: #fff;
+  padding: 20px; 
+}
+.modal-content{
+  display: flex;
+  flex-wrap: wrap;
+}
+.requestFormInput{
+  margin-bottom: 15px;
+    /* width: 100%; */
+}
+.requestFormInputLeft,
+.requestFormInputright{
+  flex: 50%;
+}
+.hold{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.requestFormInput label{
+  font-size: 18px;
+  /* font-weight: 600; */
+  font-weight: 400;
+  display: block;
+}
+.refeFormInput label{
+  font-size: 18px;
+  font-weight: 400;
+  display: block;
+} 
+.requestFormInput input{
+  width: 80%;
+  /* margin-right: 100px; */
+  font-size: 15px;
+  padding: 5px 12px;
+  margin: 5px;
+  /* border: none;
+  outline: none; */
+  border: 1px solid #ccc;
+  /* border-bottom: 1px solid #000; */
+  background-color: rgb(243, 243, 243);
+  border-radius: 4px;
+  font-weight: 500;
+}
+.forRefeLabel{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.forRefeLeft,
+.forRefeRight{
+  flex: 50%;
+}
+.refeFormInput input{
+  width: 80%;
+  padding: 5px 12px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  background-color: rgb(243, 243, 243);
+  font-size: 15px;
+  border-radius: 4px;
+}
+.requestFormInput input:hover,
+.bloodTypeLeft input:hover,
+.bloodTypeRight input:hover,
+.requiredDate input:hover,
+.refeFormInput input:hover,
+.requestFormInput textarea:hover,
+.requestFormInput textarea:focus,
+.requestFormInput input:focus,
+.bloodTypeLeft input:focus,
+.bloodTypeRight input:focus,
+.requiredDate input:focus,
+.refeFormInput input:focus{
+  background-color: rgb(231, 227, 253);
+}
+.wrong input,
+.wrong input:focus
+.wrong textarea,
+.wrong textarea:focus{
+  background-color: rgb(252, 227, 227);
+}
+.wrong p{
+  color: red;
+  font-size: 12px;
+}
+
+#gender{
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  display: inline-flex;
+  margin-right: 10px;
+}
+.bloodType{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.bloodType label{
+  font-size: 16px;
+  font-weight: 550;
+  padding-right: 10px;
+}
+.bloodTypeLeft,
+.bloodTypeRight{
+ flex: 2;
+}
+/* .bloodType select{
+  border: none;
+  outline: none;
+background-color: rgb(243, 243, 243);
+} */
+.bloodComponent{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 550;
+}
+.bloodComponentLeft{
+  flex: 4;
+}
+.bloodComponentRight{
+  flex:2;
+}
+.required{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 25px 0 ;
+  font-size: 16px;
+  font-weight: 550;
+}
+.requiredDate,
+.requiredTime{
+  flex: 50%;
+}
+.requiredDate label{
+  font-size: 16px;
+  font-weight: 550;
+}
+.requiredDate input{
+/* outline: none;
+border: none;
+background-color: rgb(243, 243, 243); */
+margin: 0 15px;
+}
+.bloodComponentRight{
+  display: flex;
+  flex-wrap: wrap;
+}
+.small{
+flex: 65%;
+margin-top: 10px;
+}
+.price{
+margin-top: 10px;
+flex: 35%;
+}
+#reqButton {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  /* flex-wrap: wrap; */
+  /* align-items: center;
+  justify-content: space-between; */
+}
+.reqButtonLeft button,
+.reqButtonMiddel button,
+.reqButtonRight button{
+padding: 8px 25px;
+border-radius: 4px;
+border: none;
+outline: none;
+background-color: black;
+color: white;
+cursor: pointer;
+font-size: 15px;
+}
+.small select{
+  margin-left: 8px;
+}
+.price input{
+  margin-left: 8px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000;
+}
+
+.reqButtonLeft,
+.reqButtonMiddel,
+.reqButtonRight{
+  flex: 60%;
+
+}
+.notvalid input{
+  background-color: rgb(255, 232, 232);
+}

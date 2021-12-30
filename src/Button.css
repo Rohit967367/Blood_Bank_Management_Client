@@ -1,0 +1,14 @@
+.buttonBtn{
+    padding: 5px 20px;
+    background-color: black;
+    color: white;
+    font-size: 13;
+    cursor: pointer;
+    right: 0;
+    border: none;
+    border-radius: 5px;
+}
+.buttonBtn:hover{
+    border: none;
+    border-radius: 5px;
+}
